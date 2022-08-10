@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'Altone';
+    src: url('file:///Macintosh HD/Users/valezuniga/Downloads/Tarea Grupal/css/Altone\ Trial\ Regular\ 400.ttf') format("woff")    ;
+}
+
+
+
+body {
+    font-family: 'Altone';
+}
+
+.navbar-light{
+    background-color: rgb(30, 49, 19);
+    opacity: 0.9;
+    
+}
+
+#carouselExampleControls img{
+    background: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+#carouselExampleControls p{
+    font-size: 1vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#myfooter{
+    background-color: rgb(30, 49, 19);
+}
+
+#carousel{
+    width: 800px;
+}
+
+#TituloPrincipal{
+    font-family: 'Gangitem';
+}
+
+
+
+#galeria img{
+    height: 200px;
+}
+
+#galeria p{
+    font-family: 'Altone';
+	text-align: center;
+}
+
+#galeria h4 {
+	font-family: 'Altone';
+	text-align: center;
+	
+}
+
+.carousel-caption{
+	display: grid !important;
+	align-content: center;
+	height: 100%;
+}
+.carousel-item{
+	/*height: 100vh; opcional: en caso de no utilizar una imagen de fondo por slide*/
+}
+
+
+
+/*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
+/*
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+*/
+
+.carousel-indicators button {
+	
+	background-color: #000 !important;
+}
+
+
+#reviews {
+	
+	padding-top: 50px;
+}
+#reviews h1 {
+	text-align: center;
+	
+	
+}
+#reviews h2 {
+	text-align: center;
+	padding-bottom: 50px;
+	
+	
+}
+
+#reviews hr {
+	color: #fff;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+#reviews img {
+	padding-left: 20px;
+	padding-top: 20px;
+	
+	
+}
+#reviews h3{
+	color: #fff;
+	padding-top: 40px;
+	font-size: 15px;
+	
+}
+#reviews p{
+	
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	
+}
+
+#reviews .boxreviews {
+	background-color: #1F2803;
+	border: 3px solid #1F2803;
+	border-radius: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+
+#redes{
+	
+	padding-top: 100px;
+}
+
+
+
+#subscribe{
+	background-color: #000000;
+	padding: 250px 0;
+	background-image: url("../images/l-intro-1643403830.jpg");
+}
+
+
+
+#subscribe h2{
+	font-family: 'Altone';
+	text-align: center;
+	color: #eee;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+#subscribe p{
+	color: #eee;
+	font-size: 25px;
+	text-align: left;
+	padding-top: 50px;
+}
+
+#subscribe #mc_embed_signup_scroll{
+	background-color: #1F2803;
+}
+
+#subscribe #mc-embedded-subscribe{
+	background-color: #000;
+	color: #eee;
+	text-align: center;
+	font-family: 'Altone';
+	align-content: center;
+	border-color: transparent;
+	padding: 3px 50px;
+	border-radius: 5px;
+}
+
+#subscribe .clear{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#subscribe .mc-field-group{
+	text-align: center;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
